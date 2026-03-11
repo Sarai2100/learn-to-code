@@ -3,7 +3,7 @@
     padding: 0;
     /* border: solid red 1px; */
 }
-
+    /* ** HEADER SECTION ** */
 header {
     display: flex;
     justify-content: space-around;
@@ -14,8 +14,8 @@ header {
 }
 
 .logo p {
-    font-size: 24px ;
-    font-weight: 600;
+    font-size: 36px ;
+    font-weight: 900;
     margin-top: 20px;
     
 }
@@ -31,3 +31,55 @@ header {
 li {
     margin: 20px;
 }
+
+    /* HERO SECTION */
+
+.hero {
+    height: 350px;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 120px;
+  
+    
+}
+
+.hero-img {
+    width: 600px;
+    height: 280px;
+    background-color: darkgray;
+    margin-right: 65px;
+    
+    
+}
+.hero-content {
+    width: 400px;
+    margin-left: 52px;
+    
+}
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-content p {
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-btn {
+    font-size: 18px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 40px;
+    color: #F9FAF8;
+    border: #3882F6 solid 1px;
+    margin-top: 10px;
+}
+
+    /* ** SKILL SECTION ** */
