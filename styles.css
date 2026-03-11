@@ -64,12 +64,15 @@ li {
     font-weight: 900;
     text-align: left;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 .hero-content p {
     font-size: 20px;
     padding: 10px 0;
     font-family: 'Roboto', sans-serif;
+    max-width: 414px;
+    line-height: 1.5;
 }
 
 .hero-btn {
