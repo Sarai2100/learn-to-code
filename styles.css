@@ -86,3 +86,45 @@ li {
 }
 
     /* ** SKILL SECTION ** */
+
+.skills {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.box {
+    width: 140px;
+    height: 140px;
+    border: 4px #3882F6 solid;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+.skills-container {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    
+    gap: 50px;
+    margin-bottom: 60px;
+}
+.skill-card p {
+    color: rgb(100, 99, 99);
+    text-align: center;
+   
+}
+ /* Inpiring Quote Section */
+.inspiring-quote {
+    height: 400px;
+    background-color: #c8c8c9;
+}
